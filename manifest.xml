@@ -499,17 +499,17 @@
         <fqname>@1.0::IGoodixBiometricsFingerprint/default</fqname>
     </hal>
     <hal format="hidl">
-        <name>vendor.lineage.power</name>
+        <name>vendor.mokee.power</name>
         <transport>hwbinder</transport>
         <version>1.0</version>
         <interface>
-            <name>ILineagePower</name>
+            <name>IMoKeePower</name>
             <instance>default</instance>
         </interface>
-        <fqname>@1.0::ILineagePower/default</fqname>
+        <fqname>@1.0::IMoKeePower/default</fqname>
     </hal>
     <hal format="hidl">
-        <name>vendor.lineage.trust</name>
+        <name>vendor.mokee.trust</name>
         <transport>hwbinder</transport>
         <version>1.0</version>
         <interface>
